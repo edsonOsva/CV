@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    text-align: center; /*centrara todo que no tiene una anchura definida (ver width: 10% en elemento h1)*/
+    font-family: 'Fira Mono', monospace;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+h1 {
+    /*width: 10%; /*si el elemento tiene un ancho definido entonces se tiene que centrar utilizando lo siguiente: 
+    margin: 0 auto 0 auto;*/
+    margin-top: 0;
+    font-family: 'Sacramento', cursive;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.top-container {
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 50px;
+}
+
+.middle-container {
+    /*background-color: red;
+    width: 200px;
+    height: 200px;
+    position: relative; /*cambiando la posicion de estatica a relativa
+    left: 30px; /*las coordenadas pueden ser top; bottom;left; right*/
+    background-color: #E4F9F5;
+
+}
+
+.contact-me {
+    background-color: #E4F9F5;
+}
+
+.bottom-container {
+    /*
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    /*display: none; -> No se borra el elemento, el valor de visualización se asigna ninguno. (display: inline-block; se utiliza para alinear los
+    elementos deseados en una sola linea
+    visibility: none; -> El elemento desaparece pero su posicion original y todos los demas elementos siguen fluyendo a su alrededor*/
+    background-color: #E4F9F5;
+}
